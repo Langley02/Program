@@ -28,105 +28,59 @@
     font-size: inherit;
 }
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.main_container {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.head_cont {
+.background_container, .background_container_black, .background_container_grey {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.head {
+    justify-content: center;
+    flex-basis: 1176px;
     padding-left: 147px;
+    padding-bottom: 30px;
     font-size: 30px;
-    font-family: 'Myriad Pro';
+    font-family: "Myriad Pro";
 }
 
-.head_cont {
-    max-width: 1176px;
-    margin: auto;
-}
-
-.bg_time:first-of-type {
-    line-height: 82px;
-}
-
-.bg_time {
-    width: 100%;
-    line-height: 95px;
-}
-
-.black_bg {
+.background_container_black {
     background-color: black;
 }
 
-.grey_bg {
+.background_container_grey {
     background-color: #c4c4c4;
     border-top: solid 4px white;
 }
 
-.time {
-    max-width: 1176px;
-    line-height: 95px;
-    margin: auto;
+.head_black, .head_grey {
     padding-left: 147px;
-    color: white;
+    justify-content: center;
+    flex-basis: 1176px;
+    line-height: 95px;
     font-size: 48px;
-    font-family: 'Myriad Pro';
+    color: white;
+    font-family: "Myriad Pro";
 }
 
-.bl {
-    background-color: black;
-}
-
-.gr {
-    background-color: #c4c4c4;
-}
-
-.bl:first-of-type:after {
+.head_black:first-of-type:after {
+    padding-left: 45px;
+    position: absolute;
     content: "РЕГИСТРАЦИЯ";
     font-size: 18px;
-    font-family: 'Oswald';
-    margin-left: 45px;
-    position: absolute;
+    font-family: "Oswald";
 }
 
-.gr:first-of-type:after {
+.head_grey:first-of-type:after {
+    padding-left: 45px;
+    position: absolute;
     content: "ОТКРЫТИЕ";
     font-size: 18px;
-    font-family: 'Oswald';
-    margin-left: 45px;
-    position: absolute;
-}
-
-.bg_Malevich_conteiner {
-    width: 100%;
-    line-height: 553px;
-}
-
-.Malevich_conteiner {
-    max-width: 1176px;
-    height: 267px;
-    margin: auto;
-}
-
-.Malevich {
-    width: 210px;
-    height: 210px;
-    background: black;
-    display: block;
-    float: left;
-}
-
-.Malevich:first-of-type {
-    margin: 32px 14px 24px 146px;
-}
-
-.time2 {
-    font-size: 24px;
-    max-width: 410px;
-    line-height: 80;
-    color: black;
-    font-family: 'Oswald';
-    display: block;
-    float: right;
-
+    font-family: "Oswald";
 }
