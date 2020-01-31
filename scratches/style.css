@@ -22,6 +22,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Oswald-Light';
+    src: url('../fonts/Oswald-Light.eot');
+    src: url('../fonts/Oswald-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Oswald-Light.woff2') format('woff2'),
+    url('../fonts/Oswald-Light.woff') format('woff'),
+    url('../fonts/Oswald-Light.ttf') format('truetype'),
+    url('../fonts/Oswald-Light.svg#Oswald-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -32,6 +44,12 @@
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
+}
+
+.main_container2 {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
 }
 
 .background_container, .background_container_black, .background_container_grey, .background_container_info, .background_container_grey2 {
@@ -129,6 +147,13 @@
     margin-left: 146px;
 }
 
+.container_info2 {
+    flex-basis: 1176px;
+    height: 282px;
+    display: flex;
+    margin-left: 146px;
+}
+
 .img1 {
     margin-top: 32px;
 }
@@ -207,6 +232,47 @@
     height: 150px;
 }
 
-.container_info:last-of-type {
-    height: 282px;
+.timetable {
+    display: flex;
+    flex-basis: 1176px;
+    flex-direction: row;
+    background-color: red;
+    margin-left: 150px;
+}
+
+.column_table {
+    flex-basis: 211.25px;
+
+}
+
+.column_table:first-of-type {
+    font-size: 24px;
+    font-family: "Myriad Pro";
+}
+
+.column_table:first-of-type p:first-of-type {
+    padding-top: 206px;
+}
+
+.column_table:first-of-type p:nth-of-type(2) {
+    padding-top: 282px;
+}
+
+.column_table:first-of-type p:nth-of-type(3) {
+    padding-top: 314px;
+}
+
+.column_table:first-of-type p:nth-of-type(4) {
+    padding-top: 306px;
+}
+
+.column_table:first-of-type p:last-of-type {
+    padding-top: 309px;
+}
+
+.column_table h2 {
+    padding-top: 36px;
+    padding-right: 71px;
+    font-size: 24px;
+    font-family: "Myriad Pro";
 }
