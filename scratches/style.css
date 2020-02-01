@@ -40,13 +40,13 @@
     font-size: inherit;
 }
 
-.main_container {
+section {
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
 }
 
-.main_container2 {
+.main_container {
     display: flex;
     flex-basis: 100%;
     justify-content: center;
@@ -426,4 +426,52 @@
 
 .column_table:nth-of-type(3) h4:nth-of-type(5):after {
     bottom: 123px;
+}
+
+footer {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+}
+
+.background_logo {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-basis: 1176px;
+    height: 210px;
+    margin-left: 146px;
+    margin-top: 76px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    border: solid 1px black;
+    padding: 94px 13px 93px 15px;
+}
+
+.logo p:first-of-type {
+    margin-top: 32px;
+    margin-left: 12px;
+    font-size: 40px;
+    font-family: "Myriad Pro";
+}
+
+.logo p:nth-of-type(2) {
+    font-size: 24px;
+    font-family: "Oswald";
+    margin-top: 31px;
+    margin-left: 37px;
+}
+
+.logo p:nth-of-type(2):after {
+    content: "Интенсив от школы рекламы и дизайна “Багаж”";
+    font-size: 18px;
+    position: relative;
+    top: 35px;
+    right: 77px;
 }
